@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+main{
+ width: 100%;
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ background-color: hsl(0, 0%, 95%) ;
+}
+
+.container{
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  font-family: 'Lexend Deca', cursive;
+  font-size:15px;
+}
+
+.card{
+  width: 269px;
+  padding: 15px;
+  min-height: 430px;
+}
+
+.box1{
+  background-color: hsl(31, 77%, 52%);
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.box2{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.box3{
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.content{
+  padding: 10px;
+}
+
+h1{
+  color: hsl(0, 0%, 95%);
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display';
+  margin: 20px 0;
+}
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 30px;
+}
+
+button {
+  margin: 60px 0;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  background-color: #FFF;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  
+}
+
+ .a1{
+   color:hsl(31, 77%, 52%);
+   text-decoration: none;
+}
+
+.a2{
+  color: hsl(184, 100%, 22%);
+  text-decoration: none;
+}
+
+.a3{
+  color: hsl(179, 100%, 13%);
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color: #FFF;
+  border: 2px solid #FFF;
+  color: #FFF;
+  transition: 0.4s;
+}
+
+footer{
+  background-color: black;
+padding: 30px;
+text-align: center;
+}
+
+footer a{
+  color: #FFF;
+  font-size: 40px;
+  text-decoration: none;
+  background-color:rgb(100, 100, 219);
+  border: none;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width:375px) {
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
